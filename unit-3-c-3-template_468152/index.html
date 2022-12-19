@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Add Amount</title>
+  <style>
+    #navbar {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    input {
+      margin-left: 300px;
+    margin-top: 60px;
+    width: 200px;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    }
+
+    button {
+      margin-left: 300px;
+    margin-top: 30px;
+    padding: 7px;
+    width: 200px;
+    border-radius: 5px;
+    background: red;
+    /* background-color: yellow; */
+
+
+    }
+
+    a {
+      text-decoration: none;
+    }
+    body{
+      background-color: cyan;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="navbar">
+    <h1>Add Money to wallet</h1>
+
+    <h1 id="wallet">0</h1>
+  </div>
+  <div id="add-money">
+
+    <input type="number" id="amount" placeholder="please add amount"><br>
+
+    <button id="add_to_wallet" onclick="addWallet()">Add to wallet</button><br>
+
+
+    <button id="book_movies"><a href="movies.html">movies</a></button>
+  </div>
+</body>
+<script src="./scripts/index.js"></script>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checkout</title>
+  <style>
+    #navbar {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    body {
+      background-color: skyblue;
+    }
+
+    input {
+      width: 200px;
+      padding: 5px;
+      border-radius: 10px;
+      border: none;
+      background-color: seashell;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="navbar">
+    <h1>Checkout | Cost: 100/seat</h1>
+
+    <h1 id="wallet">0</h1>
+  </div>
+  <div id="user-detail">
+
+    <input type="text" id="user_name" placeholder="enter your name">
+
+    <input type="number" id="number_of_seats" placeholder="book ticket">
+
+    <button id="confirm" onclick="bookingMovie()">Confirm</button>
+  </div>
+
+  <div id="movie">
+
+  </div>
+</body>
+<script src="./scripts/checkout.js"></script>
+
+</html>
